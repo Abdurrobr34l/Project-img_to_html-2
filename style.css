@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* I gave color and style to all [h1p p anda tags] in this website start here */
+h1 {
+    color: #292640;
+    font-family: 'Outfit', sans-serif;;
+}
+p {
+    color: #B5B2AD;
+}
+a {
+    color: #292640;
+}
+/* I gave color to all [h1 AND p and a tags] in this website end here */
+/* Navigation bar style start here  */
+header {
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 65%;
+    overflow: hidden;
+}
+/* ------------s-c1 start  here-----------  */
+.s-c1 {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+.logo {
+    margin-top: 10px;
+    width: 32%;
+    float: left;
+}
+.logo img {
+    width: 440%;
+}
+.s-c1 ul {
+    margin-top: 28px;
+    padding-left: 0;
+    width: 60%;
+    float: right;
+}
+.s-c1 li, a {
+    width: 25%;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.s-c1 ul li a:hover {
+    transform: scale(1.1);
+    transition: 0.69s;
+    color: #B5B2AD;
+}
+.s-c1 ul :nth-child(even) {
+    padding-right: 20px;
+}
+/* ------------s-c1 end  here-----------  */
+/* ------------S-s-c2 start here-----------  */
+
+.s-c2-margin {
+    margin-top: 10px;
+    width: 25%;
+    background-color: #FF6162;
+    border-radius: 5px;
+    float: right;
+}
+button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF6162;
+}
+.s-c2 button a {
+    padding: 15px 0;
+    width: 100%;
+    color: white;
+}
+.s-c2 button a:hover {
+    color: #FFC3C6;
+} 
+/* ------------s-c2 end here-----------  */
+
+/* Navigation bar style end here  */
+
+
+/* First section style start here  */
+.sec-1 {
+    margin-top: 120px;
+    width: 100%;
+    height: 390px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.text {
+    width: 45%;
+    height: 390px;
+    float: left;
+}
+.image {
+    width: 50%;
+    height: 390px;
+    float: right;
+}
+.image img {
+    width: 100%;
+    height: inherit;
+}
+.text h1 {
+    margin: 50px 30px 25px 0;
+    font-size: 38px;
+    font-weight: 400px;
+}
+.text p {
+    line-height: 24px;
+}
+.text a {
+    width: 8%;
+}
+.text a img {
+    width: 100%;
+}
+/* First section style end here  */
+
+/* Second section style start here */
+.Stunning-demo {
+    margin: 120px auto 0 auto;
+    width: 95%;
+}
+.s2_h1{
+    margin: 120px 0 -10px 0;
+    font-size: 30px;
+    text-align: center;
+}
+#s2-p {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+#s2-p {
+    margin-bottom: 30px;
+    padding: 0 220px;
+}
+/* Second section style end here */
+
+/* Colmun section style start here */
+.header-col {
+    margin-bottom: 120px;
+}
+.col-container {
+    margin: 0 auto;
+    width: 95%;
+    height: 450px;
+    overflow: hidden;
+}
+.col1 {
+    width: 23%;
+    height: 430px;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.col-name {
+    text-align: center;
+}
+.col img {
+    width: 100%;
+}
+.center1 {
+    margin-left: 30px;
+}
+.center2 {
+    margin-left: 20px;
+}
+
+.center3 {
+    margin: 0 20px 0 20px;
+    
+}
+.col1 a :hover {
+    transform: scale(0.96);
+    opacity: 0.9;
+    transition: .53s;
+    box-shadow: 0px 0px 25px  #B5B2AD;
+}
+.col-name :hover {
+    transform: scale(1.1);
+    transition: .33s;
+    color: #B5B2AD;
+}
+/* Colmun section style end here */
+
+/* 32 156 */
+/* features section start here */
+.f-margin {
+    margin: 120px 0 100px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.feature {
+    margin: 120px auto 0 auto;
+    width: 67%;
+    height: inherit;
+}
+.f-head {
+    width: 100%;
+    text-align: center;
+}
+.sub2_p {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.sub-c {
+    margin: 15px 10px 15px 10px;
+    width: 31%;
+    height: 230px;
+    float: left;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #F5F5F5;
+    box-shadow: -3px -2px 2px #B5B2AD;
+}
+.sub-c h2 {
+    margin: 10px 0 10px 0;
+}
+.sub-c p {
+    padding: 0 10px;
+}
+.f-5 h2 {                     
+    padding-bottom: 25px; /*this padding is done to make the 5th column    text to align with other colm text and also this padding is donw by taking seperate class*/
+}
+.sub-c img {
+    margin-top: 20px;
+}
+.sub-c:hover {
+    transform: scale(1.04);
+    transition: .33s;
+    opacity: .8;
+}
+/* features section end here */
+
+ /* footer section start here   */
+ footer{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #292640;
+ }
+ .footer-c {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+ }
+ .footer-c h1 {
+    padding: 0 510px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+ .footer-c p {
+    color:#B5B2AD;
+ }
+ .last-buy {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 223px;
+ }
+ .last-buy button {
+    background-color: #ff3f3f;
+    
+ }
+ .last {
+    width: 100%;
+    overflow: hidden;
+ }
+ .footer-img, .arrowed {
+    display: inline-block;
+ }
+ .footer-img {
+    margin: 10px 0 0 620px;
+    width: 8%;
+ }
+ .arrowed {
+    width: 4%;
+    float: right;
+ }
+ .f-i img {
+    width: 100%;
+ }
+ /* footer section end here   */
